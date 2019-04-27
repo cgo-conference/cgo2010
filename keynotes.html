@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Keynote Speakers at the 2010 International Symposium on Code Generation and Optimization</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+<div class="text">
+<img src="images/cgo-header.jpg">
+<hr color=black>
+<h2>Performance is Dead, Long Live Performance!</h2>
+
+<p>In a world of social networking, security attacks, and hot mobile phones,
+the importance of application performance appears to have diminished. My own
+research agenda has shifted from looking at the performance of memory
+allocation to building runtime systems that are more resilient to data
+corruption and security attacks. In my talk, I will outline a number of areas
+where code-generation and runtime techniques can be successfully applied to
+areas for purposes other than performance, such as fault tolerance,
+reliability, and security. Along the way, I will consider such questions as
+"Does it really matter if this corruption was caused by a software or hardware
+error?" and "Is it okay to let a malicious person allocate arbitrary data on my
+heap?".</p>
+
+<p>Despite these other opportunities, the importance of performance in modern
+applications remains undiminished, and current hardware trends place an
+increasing burden on software to provide needed performance boosts. In
+concluding, I will suggest several important trends that I believe will help
+define the next 10 years of code generation and optimization research.  </p>
+
+<p>Here are the keynote slides in 
+<a href="talks/CGO2010-keynote-BenZorn.pdf">PDF</a> and
+<a href="talks/CGO2010-keynote-BenZorn.ppt">PPT</a> format.</p>
+
+<img src="images/zorn.jpg" align=left>
+<p><b>Ben Zorn</b> is a Principal Researcher at Microsoft Research. After
+receiving a PhD in Computer Science from UC Berkeley in 1989, he served eight
+years on the Computer Science faculty at the University of Colorado in Boulder,
+receiving tenure and being promoted to Associate Professor in 1996. He left the
+University of Colorado in 1998 to join Microsoft Research, where he currently
+works. Ben's research interests include programming language design and
+implementation and performance measurement and analysis. He has served as an
+Associate Editor of the ACM journals Transactions on Programming Languages and
+Systems and Transactions on Architecture and Code Optimization and he currently
+serves as a Member-at-Large of the SIGPLAN Executive Committee. For more
+information, visit his web page at <a
+href="http://research.microsoft.com/~zorn/">http://research.microsoft.com/~zorn/</a>.</p>
+
+<br><br><br>
+<hr color=black>
+
+<h2>There Are At Least Two Sides to Every Heterogeneous System</h2>
+
+<p>Since there are at least two sides to every heterogeneous system, optimizing
+for heterogeneous systems is inherently an exercise in managing complexity,
+balanced trade-offs and layering.  Efforts to make the hardware simple may
+result in software complexity, unless there's an abstracting software layer
+involved.  Different customer-driven usage models make it challenging to
+offer a layered but consistent programming model, a cost-effective set of
+performance features and a flexibly-capable systems software stack.  And
+often, the very reasons why heterogeneous systems exist drives them to
+change over time, making them difficult to target from a code generation 
+perspective.</p>
+
+<p>As a company that provides hardware systems, compilers, systems software
+infrastructure and services, one of Intel's research and development focuses is
+on optimizing for heterogeneous systems, such as a mix of IA multicores and
+Larrabee processors that are used for both graphics and compute co-processing.
+This talk addresses some of the challenges we've encountered in that space, and
+offers some potential directions.</p> 
+
+<p>Primary among the case studies used in this talk is a dynamic compiler that
+uses Intel's Ct technology, which strives to make it easier for programmers to
+specify what data-parallel work needs to be accomplished, and manages
+extracting parallelism from the application and making use of it on multicore,
+manycore and compute co-processor architectures.  The set of issues that will
+be addressed include how to specify parallelism, safety and debugging, software
+infrastructure and compiler architecture, and achieving performance on
+heterogeneous systems.</p>
+
+<img src="images/newburn.jpg" align=left>
+<p><b>Chris (CJ) Newburn</b> serves as a feature architect for Intel's Intel64
+platforms, and has contributed to a combination of hardware and software
+technologies that span heterogeneous compiler optimizations, middleware,
+JVM/JIT/GC optimization, acceleration hardware, ISA changes, microcode and
+microarchitecture over the last twelve years.  Performance analysis and tuning
+have figured prominently in the development and production readiness work that
+he's done.  He likes to work on projects that span the hardware-software
+boundary, that span organizations, and that foster collaboration across
+organizations.  He has submitted nearly twenty patents and has numerous journal
+and conference publications.  He helped start CGO, has served on several
+program committees, as a journal editor, and as an NSF panelist.  He wrote a
+binary-optimizing, multi-grained parallelizing compiler as part of his Ph.D. at
+Carnegie Mellon University.  Before grad school, in the 80s, he did stints in a
+couple of start-ups, working on a voice recognizer and a VLIW mini-super
+computer.  He's glad to be working on volume products that his Mom uses.</p>
+
+<br><br>
+<hr color=black>
+
+</div>
+
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="call_papers.html">Call for Papers</a>
+<a href="submissions.html">Submission</a>
+<a href="wt.html">Workshops & Tutorials</a>
+<a href="posters.html">Student Posters</a>
+<a href="program.html">Program</a>
+<a href="keynotes.html">Keynotes</a>
+<a href="venue.html">Local Information</a>
+<a href="registration.html">Registration</a>
+<a href="student_travel.html">Student Travel Support</a>
+<a href="committees.html">Committees</a>
+<a href="past.html">Past Conferences</a>
+<a href="charter.html">CGO Charter</a>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+BODY {
+	COLOR: black; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica; BACKGROUND-COLOR: white
+}
+UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url("http://www.microarch.org/micro35/StylePics/bstrbu1.gif"); MARGIN-BOTTOM: 0px; LIST-STYLE-TYPE: square
+}
+UL UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url("http://www.microarch.org/micro35/StylePics/bstrbu2.gif"); MARGIN-BOTTOM: 0px; LIST-STYLE-TYPE: square
+}
+UL UL UL {
+	MARGIN-TOP: 0px; LIST-STYLE-IMAGE: url("http://www.microarch.org/micro35/StylePics/bstrbu3.gif"); MARGIN-BOTTOM: 0px; LIST-STYLE-TYPE: square
+}
+LI {
+	PADDING-LEFT: 10px; MARGIN-LEFT: -5px; LIST-STYLE-TYPE: square
+}
+A:link {
+	COLOR: rgb(51,102,153)
+}
+A:active {
+	COLOR: rgb(102,102,102)
+}
+A:visited {
+	COLOR: rgb(51,102,153)
+}
+TABLE {
+	FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Arial, Helvetica
+}
+TD {
+	FONT-STYLE: normal; FONT-FAMILY: 'Trebuchet MS', Arial, Helvetica
+}

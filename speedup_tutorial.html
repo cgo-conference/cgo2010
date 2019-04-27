@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2010 International Symposium on Code Generation and Optimization</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+<div class="text">
+<img src="images/cgo-header.jpg">
+<h1>The Speedup-Test:</h1>
+<h2>A Rigorous Statistical Protocol for Declaring Program Speedups with High Confidence</h2>
+<br><br>
+<h2>Saturday, April 24, 2010 - Afternoon</h2>
+
+<h3>Organizer</h3>
+
+<DL>
+<DT><b>Sid Touati</b> - <a href="http://www.prism.uvsq.fr/~touati/index_english.html">biography</a></DT>
+<DD><p>Sid Touati got a DEA in computer science from ENS-Lyon (France) in 1998, then a PhD from University of Versailles in 2002. He is an assistant professor at the University of Versailles St Quentin en Yvelines since 2003, in charge of many research projects and PhD students. Currently, he is in a sabbatical year at the INRIA laboratory. His topics of interests are code optimisation for embedded VLIW processors and high performance multi-core architectures. Sid Touati relies on both fundamental research (formal) and empirical research (experimental).</p></DD>
+
+</DL>
+
+<h3>Intented Audience</h3>
+<p>
+High performance computing, program performance evaluation and analysis, statistics.
+</p>
+
+<h3>Abstract</h3>
+<p>
+Numerous code optimisation methods are usually experimented by doing multiple observations of the initial and the optimised executions times in order to declare a speedup. Even with fixed input and execution environment, programs executions times vary in general, especially for toy/kernel benchrmaks. With the introduction of multi-core architectures, execution times variability is becoming increasingly unstable. So hence different kinds of speedups may be reported: the speedup of the average execution time, the speedup of the minimal execution time, the speedup of the median, etc. Many published speedups in the literature are observations of a set of experiments that do not guarantee reproducibility. In order to improve the reproducibility of the experimental results, this tutorial presents a rigorous statistical methodology regarding program performance analysis. We rely on well known statistical tests (Shapiro-wilk's test, Fisher's F-test, Student's t-test, Kolmogorov-Smirnov's test, Wilcoxon-Mann-Whitney's test) to study if the observed speedups are statistically significant or not. By fixing <i>0 &lt; &alpha; &lt; 1</i> a desired risk level, we are able to analyse the statistical significance of the average execution time as well as the median. We can also check if <i>P( X &gt; Y) &gt; 1/2</i>, the probability that an individual execution of the optimised code is faster than the individual execution of the initial code. Our methodology defines a consistent improvement compared to the usual performance analysis method in high performance computing as in \cite{Jain:1991:ACS,lilja:book}. We explain in each situation what are the hypothesis that must be checked to declare a correct risk level for the statistics.  The Speedup-Test protocol certifying the observed speedups with rigorous statistics is implemented and will distributed for the tutorial as an open source tool based on the R software.
+</p>
+
+<h3>Topics</h3>
+<h4>1. Introduction</h4>
+<ul>
+<li>Known hints for making a research result non reproducible</li>
+<li>Why program execution times vary</li>
+<li>Related literature on statistical performance analysis</li>
+</ul>
+<h4>2. Common observed non-rigorous experiments and statistics in the community of code optimisation and high performance computing</h4>
+<ul>
+<li>Biased experiements</li>
+<li>Outliers elimination</li>
+<li>Using statistical tests without checking the hypothesis</li>
+<li>Confusion between continuous and discrete data</li>
+</ul>
+<h4>3. Reporting the different kinds of observed speedups</h4>
+<ul>
+<li>Computing a speedup for a single program with a single data input</li>
+<li>Reporting the overall speedup and performance gain of a set of benchmarks</li>
+</ul>
+<h4>4. Analysing the statistical significance of the observed speedups</h4>
+<ul>
+<li>The speedup of the observed average execution time</li>
+<li>The speedup of the observed median execution time, as well as individual runs</li>
+</ul>
+<h4>5. Measuring the confidence interval of the proportion of accelerated benchmarks</h4>
+<h4>6. The Speedup-Test software (demo)</h4>
+<h4>7. Discussion</h4>
+<ul>
+<li>Why the observed minimal execution time is not necessarily a good statistical estimation of program performance?</li>
+<li>Hypothesis testing in statistics and probablilty theory</li>
+<li>What is a reasonable large sample? Observing the central limit theorem in practice</li>
+</ul>
+
+
+<br>
+<br>
+
+<B>Tutorial document and tool available at:</B> <a href="http://hal.archives-ouvertes.fr/inria-00443839/">http://hal.archives-ouvertes.fr/inria-00443839/</a>
+
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="call_papers.html">Call for Papers</a>
+<a href="submissions.html">Submission</a>
+<a href="wt.html">Workshops & Tutorials</a>
+<a href="posters.html">Student Posters</a>
+<a href="program.html">Program</a>
+<a href="keynotes.html">Keynotes</a>
+<a href="venue.html">Local Information</a>
+<a href="registration.html">Registration</a>
+<a href="student_travel.html">Student Travel Support</a>
+<a href="committees.html">Committees</a>
+<a href="past.html">Past Conferences</a>
+<a href="charter.html">CGO Charter</a>
+</div>
+
+</div>
+</body>
+</html>
